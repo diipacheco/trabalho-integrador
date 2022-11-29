@@ -1,0 +1,28 @@
+h1 {
+  color: rgba(98%, 70%, 15%);
+  font-size: 30px;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+article img {
+  height: 100%;
+  max-height: 130px;
+  border-radius: 50%;
+}
+
+article h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: rgba(98%, 70%, 15%);
+}
+
+article p {
+  margin-top: 15px;
+  text-align: center;
+}
