@@ -71,7 +71,6 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  height: 503px;
   margin-top: 24px;
   padding: 0 40px;
 }
@@ -119,5 +118,4 @@ main section img {
 .page-title {
   color: rgba(98%, 70%, 15%);
   font-size: 30px;
-  text-transform: uppercase;
 }
