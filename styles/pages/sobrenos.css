@@ -1,8 +1,10 @@
 article {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  border: 1px solid orange;
+  padding: 20px;
+  position: relative;
 }
 
 article img {
@@ -17,7 +19,33 @@ article h2 {
   color: rgba(98%, 70%, 15%);
 }
 
+article h3 {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 15px;
+  color: rgba(98%, 70%, 15%);
+
+}
+
 article p {
   margin-top: 15px;
-  text-align: center;
+  /* margin-bottom: 45px; */
+  line-height: 24px;
+  letter-spacing: 1.2px;
+}
+
+article footer {
+  display: flex;
+  align-self: flex-start;
+  position: absolute;
+  bottom: 0;
+}
+
+article footer strong {
+  margin-right: 08px;
+  color: #e3e3e3;
+}
+
+article footer {
+  color: rgb(145, 141, 141);
 }
